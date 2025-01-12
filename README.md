@@ -64,11 +64,13 @@ Follow these steps to execute the automated tests:
 https://docs.google.com/spreadsheets/d/16mj-HPobFJfvYhj-rGrcFOyjd7sx9_BVEOnQePDU-3c/edit?usp=sharing
 
 ## Reports:
-![image](https://github.com/user-attachments/assets/48d5aa58-9180-4dca-b3f6-c89bae2ee906)
+![image](https://github.com/user-attachments/assets/7d371151-50c6-4c2b-bc6a-45adcc32d5c9)
 
 
-![image](https://github.com/user-attachments/assets/7728d307-dcc0-4d54-b786-facc88aca3e0)
+![image](https://github.com/user-attachments/assets/e36201d4-292c-4227-9f22-c5f104dc02f6)
+
 
 ## Sample Video of Automation Process
 
-https://github.com/user-attachments/assets/b87ff87a-e661-4d92-9b84-b1e7180284db
+https://github.com/user-attachments/assets/a06f21f8-c81b-4450-90da-4aad84973702
+

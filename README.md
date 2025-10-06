@@ -12,15 +12,15 @@ Before running the tests, ensure you have the following set up:
 
 **Tools and Frameworks:**
 - Selenium WebDriver
-- JUnit or TestNG for test management
-- Maven/Gradle for dependency management
+- TestNG for test management
+- Gradle for dependency management
 
 **Credentials:**
 - A valid Gmail account to test email-related functionality.
 - Admin credentials for the application (to be securely passed from the terminal).
 
 **Dependencies:**
-- Update the ```build.gradle``` file with required libraries such as Selenium, JUnit/TestNG, and any email API libraries.
+- Update the ```build.gradle``` file with required libraries such as Selenium, TestNG, and Rest Assured API libraries.
 
 ## What I Have Done
 The following steps were automated and tested successfully:
@@ -51,14 +51,15 @@ The following steps were automated and tested successfully:
 Follow these steps to execute the automated tests:
 
 - Clone the Repository
+    - ```git clone <repository-url>```
 - Set Up the Environment
-    - Install dependencies using Maven or Gradle
+    - Install dependencies using Gradle
 - Configure Credentials
     - Update the config.properties file with Gmail credentials and other necessary details.
     - Pass admin credentials securely when prompted by the terminal during execution.
 - Run the Tests
+    - Command: ```gradle clean test -Pemail="Email" -Ppassword="Password"```
 - View Test Reports
-    - After execution, access the test reports in the ```target/surefire-reports``` directory (for Maven) or ```build/reports/tests``` directory (for Gradle).
 
 ## Test Case Link
 https://docs.google.com/spreadsheets/d/16mj-HPobFJfvYhj-rGrcFOyjd7sx9_BVEOnQePDU-3c/edit?usp=sharing

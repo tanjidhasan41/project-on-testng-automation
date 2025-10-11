@@ -3,7 +3,7 @@
 allure-report
 allure-results
 gradle
-resources/config.properties
+src/test/resources/config.properties
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
